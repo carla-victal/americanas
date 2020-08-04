@@ -6,7 +6,7 @@ Sendo um cliente que deseja comprar uma tv com mais recursos
 Posso acessar o site das lojas americanas e realizar a busca por uma tv smart
 
 
-
+@cenario1
 Cenario: Realizar uma pesquisa por uma tv smart
    Dado que eu esteja no site das lojas americanas
    Quando digitar tv smart no campo de pesquisa
