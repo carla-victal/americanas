@@ -1,0 +1,10 @@
+default: -p prd -p firefox -p html -p progress
+ci: -p prd -p headless -p json -p pretty
+prd: ENV_TYPE=prd
+firefox: BROWSER=firefox
+chrome: BROWSER=chrome
+headless: BROWSER=headless
+html: --format html --out=log/report.html
+json: --format json --out=log/report.json
+pretty: --format pretty
+progress: --format progress
